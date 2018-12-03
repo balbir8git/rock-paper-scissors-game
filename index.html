@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -12,6 +13,25 @@
     <div class="score-board">
       <div id="user-label" class="badge">user</div>
       <div id="computer-label" class="badge">computer</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
     </div>
+
+    <div class="result">
+      <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="images/rock.png" alt="Rock">
+      </div>
+      <div class="choice" id="p">
+        <img src="images/paper.png" alt="Paper">
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissors" alt="sicssors">
+      </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
   </body>
 </html>
