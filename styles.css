@@ -5,11 +5,11 @@
 }
 
 body {
-  background-color: #24272E;
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 }
 
 header {
-  background: white;
+  background: #CCFFFF);
   padding: 20px;
 }
 
@@ -21,9 +21,9 @@ header >h1 {
 
 .score-board {
   margin: 20px auto;
-  border: 3px solid white;
+  border: 3px solid #00008B;
   width: 200px;
-  color: white;
+  color: #00008B;
   font-size: 46px;
   border-radius: 4px;
   text-align: center;
@@ -35,6 +35,6 @@ header >h1 {
   background: #E2584D;
   color: white;
   font-size: 14px;
-  padding: 2px 10px;
   font-family: sans-serif;
+  padding: 2px 10px;
 }
