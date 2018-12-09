@@ -14,17 +14,17 @@ header {
   padding: 20px;
 }
 
-header >h1 {
-  color: #FFFFFF;
+header > h1 {
+  color: #ffffff;
   text-align: center;
   font-family: sans-serif;
 }
 
 .score-board {
   margin: 20px auto;
-  border: 3px solid #00008B;
+  border: 3px solid #00008b;
   width: 200px;
-  color: #00008B;
+  color: #00008b;
   font-size: 46px;
   border-radius: 4px;
   text-align: center;
@@ -34,7 +34,7 @@ header >h1 {
 }
 
 .badge {
-  background: #E2584D;
+  background: #e2584d;
   color: white;
   font-size: 16px;
   font-family: sans-serif;
@@ -79,7 +79,7 @@ header >h1 {
 
 .choice:hover {
   cursor: pointer;
-  background: #24272E;
+  background: #24272e;
 }
 
 img {
@@ -94,5 +94,4 @@ img {
   font-family: sans-serif;
   font-weight: bold;
   margin-top: 30px;
-
 }
