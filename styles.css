@@ -97,16 +97,16 @@ img {
 }
 
 .green-glow {
-  border: 4px solid #4dcc7d;
-  box-shadow: 0 0 50px #31b43d;
+  border: 4px solid #04b913;
+  box-shadow: 0 0 20px #04b913;
 }
 
 .red-glow {
-  border: 4px solid #fc121b;
-  box-shadow: 0 0 50px #d01115;
+  border: 4px solid #d01115;
+  box-shadow: 0 0 20px #d01115;
 }
 
 .gray-glow {
-  border: 4px solid #464647;
-  box-shadow: 0 0 50px #25292b;
+  border: 4px solid #979708;
+  box-shadow: 0 0 20px #979708;
 }
