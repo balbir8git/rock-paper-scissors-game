@@ -23,7 +23,7 @@ header > h1 {
 .score-board {
   margin: 20px auto;
   border: 3px solid #00008b;
-  width: 200px;
+  width: 250px;
   color: #00008b;
   font-size: 46px;
   border-radius: 4px;
@@ -83,8 +83,8 @@ header > h1 {
 }
 
 img {
-  height: 100px;
-  width: 88px;
+  height: 108px;
+  width: 108px;
 }
 
 #action-message {
