@@ -11,24 +11,25 @@ body {
 header {
   background: #000000;
   opacity: 0.5;
-  padding: 20px;
+  padding: 3vmin;
 }
 
 header > h1 {
   color: #ffffff;
   text-align: center;
   font-family: sans-serif;
+  font-size: 2.5vw
 }
 
 .score-board {
-  margin: 20px auto;
-  border: 3px solid #00008b;
-  width: 250px;
+  margin: 3vmin auto;
+  border: 0.7vmin solid #00008b;
+  width: 20vw;
   color: #00008b;
-  font-size: 46px;
-  border-radius: 4px;
+  font-size: 3vmax;
+  border-radius: 1vmin;
   text-align: center;
-  padding: 15px 20px;
+  padding: 4vmin 5vmin;
   font-family: sans-serif;
   position: relative;
 }
@@ -36,25 +37,25 @@ header > h1 {
 .badge {
   background: #e2584d;
   color: white;
-  font-size: 16px;
+  font-size: 1.4vmax;
   font-family: sans-serif;
-  padding: 2px 10px;
+  padding: 0.4vmax 0.8vmax;
 }
 
 #user-label {
   position: absolute;
-  top: 30px;
-  left: -25px;
+  top: 3vmax;
+  left: -4vmax;
 }
 
 #computer-label {
   position: absolute;
-  top: 30px;
-  right: -35px;
+  top: 3vmax;
+  right: -5vmax;
 }
 
 .result {
-  font-size: 40px;
+  font-size: 5vmin;
   color: black;
 }
 
@@ -74,6 +75,17 @@ header > h1 {
   padding: 15px;
   margin: 0 20px;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 375px) {
+  .choice {
+    display: block;
+    border: 3px solid black;
+    border-radius: 5em / 5em;
+    padding: 2vw;
+    margin: 4vh 30vw;
+    transition: all 0.3s ease;
+  }
 }
 
 .choice:hover {
